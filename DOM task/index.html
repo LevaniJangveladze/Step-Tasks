@@ -1,0 +1,389 @@
+<!-- 8.1 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="button" type="submit">
+
+    <script>
+        let myButton = document.querySelector("#button");
+
+        console.log(myButton);
+    </script>
+</body>
+</html> -->
+
+<!-- 8.2 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1">აბზაცი1</p>
+    <p id="p2">აბზაცი2</p>
+    <p id="p3">აბზაცი3</p>
+
+    <script>
+       let P1 = document.querySelector("#p1");
+       let P2 = document.querySelector("#p2");
+       let P3 = document.querySelector("#p3");
+
+       console.log(P1);
+       console.log(P2);
+       console.log(P3);
+    </script>
+</body>
+</html> -->
+
+<!-- 8.3 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div id="twoParagraphs">
+ <p>პირველი აბზაცი</p>
+ <p>მეორე აბზაცი</p>
+ </div>
+
+ <script>
+  let P1 = document.querySelector("#twoParagraphs p");
+  console.log(P1)
+ </script>
+    
+</body>
+</html> -->
+
+<!-- 8.4
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div id="twoParagraphs">
+ <p class="p">text1</p>
+ <p class="p">text2</p>
+ </div>
+
+ <script>
+  let P1 = document.querySelector(".p");
+  console.log(P1)
+ </script>
+    
+</body>
+</html> -->
+
+<!-- 8.5 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<input id="button_1" type="submit" >
+<input id="button_2" type="submit">
+<input id="button_3" type="submit">
+
+ <script>
+   let inp1 = document.querySelector("#button_1");
+   inp1.addEventListener("click", function (){
+    console.log("პირელი ღილაკი")
+   });
+
+    let inp2 = document.querySelector("#button_2");
+   inp2.addEventListener("click", function (){
+    console.log("მეორე ღილაკი")
+   });
+
+    let inp3 = document.querySelector("#button_3");
+   inp3.addEventListener("click", function (){
+    console.log("მესამე ღილაკი")
+   });
+
+   
+ </script>
+    
+</body>
+</html> -->
+
+<!-- 8.6 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ <input id="button_1" type="submit" value="2 + 2">
+ <input id="button_2" type="submit" value="3 * 3 ">
+ <input id="button_3" type="submit" value="4 / 4">
+
+<script>
+  function sum() {
+    console.log(2 + 2);
+  }
+  function multiplication() {
+    console.log(3 * 3);
+  }
+  function divide() {
+    console.log(4 / 4);
+  }
+
+  let inp1 = document.querySelector("#button_1");
+  inp1.addEventListener("click", sum);
+
+  let inp2 = document.querySelector("#button_2");
+  inp2.addEventListener("click", multiplication);
+
+  let inp3 = document.querySelector("#button_3");
+  inp3.addEventListener("click", divide);
+</script>
+    
+</body>
+</html> -->
+
+<!-- 8.7 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="elem1">First Paragraph</p>
+    <p id="elem2">Second Paragraph</p>
+    <p id="elem3">Third Paragrap</p>
+
+    <script>
+
+     function myFunc() {
+      console.log('საინტერესო შეტყობინება');
+      }
+
+      let p1 = document.querySelector("#elem1");
+      p1.addEventListener("click", myFunc)
+
+      let p2 = document.querySelector("#elem2");
+      p2.addEventListener("click", myFunc)
+
+      let p3 = document.querySelector("#elem3");
+      p3.addEventListener("click", myFunc)
+    </script>
+</body>
+</html> -->
+
+<!-- 8.8 -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input id="button" type="submit" value="სუპერ ღილაკი">
+    
+    <script>
+      function myFunc1() {
+         alert('საინტერესო შეტყობინება');
+         }
+      function myFunc2() {
+         console.log('სუპერ ღილაკზე მოხდა დაკლიკება');
+         }
+
+         let inp = document.querySelector("#button");
+         inp.addEventListener("click", function(){
+           myFunc1();
+           myFunc2();
+         });
+    </script>
+</body>
+</html> -->
+
+<!-- 8.9
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="myText">Some text</p>
+    
+    
+    <script>
+     function myFunc1() {
+       alert('შეტყობინება1');
+       }
+       function myFunc2() {
+       alert('შეტყობინება2');
+       }
+       function myFunc3() {
+       alert('შეტყობინება3');
+       }
+
+       let but = document.querySelector("#myText");
+       but.addEventListener("click", function(){
+        myFunc1();
+        myFunc2();
+        myFunc3();
+       })
+    </script>
+</body>
+</html> -->
+
+<!-- 8.10 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <input id="button" type="submit" value="სუპერ ღილაკი">
+    
+    
+    <script>
+     let but = document.querySelector("#button");
+     but.addEventListener("dblclick",  function(){
+      console.log("სუპერ ღილაკზე მოხდა ორმაგი დაკლიკება")
+     }
+      
+     )
+    </script>
+</body>
+</html> -->
+
+<!-- 8.11 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <button id="button">სუპერ ღილაკი</button>
+    
+    
+    <script>
+     let but = document.querySelector("#button");
+     but.addEventListener("mouseover",  function(){
+      console.log("სუპერ ღილაკზე მოხდა მაუსის გადატარება")
+     }
+      
+     )
+    </script>
+</body>
+</html> -->
+
+<!-- 8.12 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <input id="button" type="submit" value="სუპერ ღილაკი">
+    
+    
+    <script>
+     let but = document.querySelector("#button");
+     but.addEventListener("mouseout",  function(){
+      console.log("სუპერ ღილაკიდან მოხდა მაუსის მოცილება")
+     }
+      
+     )
+    </script>
+</body>
+</html> -->
+
+<!-- 8.13
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <button id="button">სუპერ ღილაკი</button>
+    
+    
+    <script>
+     let but = document.querySelector("#button");
+   
+        but.addEventListener("mouseover",  function(){
+      console.log("სუპერ ღილაკზე მოხდა მაუსის გადატარება")
+     });
+     
+      but.addEventListener("mouseout",  function(){
+      console.log("სუპერ ღილაკიდან მოხდა მაუსის მოცილება")
+     });
+
+   
+    </script>
+</body>
+</html> -->
+
+<!-- 8.14 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p id="myText">Some text</p>
+    
+    
+    <script>
+
+    let myElem = document.querySelector("#myText");
+    myElem.textContent = "ახალი პარაგრაფი";
+   
+    </script>
+</body>
+</html> -->
+
+<!-- 8.15 
+
+არ მიჩვენებს მაგალითში -->
