@@ -1,0 +1,29 @@
+<!-- //--------- one way biding
+<p>{{firstName}}</p>
+
+//------------property biding
+<img [src]="img" >
+
+<button [disabled]="age<18">button</button>
+<h2 [style.color]="age<18 ? 'red':'green'">{{age<18? "არასრუწლოვანი":"სრულწლოვანი"}}</h2>
+
+
+//------------- event biding
+
+<button (click)="doSomething()">click here</button>
+
+
+//-------------- two way biding
+
+<input type="text" [(ngModel)]="name">
+<p>hello, {{name}} </p> -->
+
+
+<!-- // carousel -->
+
+
+<div class="carousel" style="display: flex;">
+    <button (click)="prev()">←</button>
+<img [src]= "images[currentIndex]" style="height: 500px;" width="800px">
+<button (click)="next()">→</button>
+</div>
