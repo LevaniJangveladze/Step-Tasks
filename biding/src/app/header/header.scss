@@ -1,10 +1,25 @@
-header{
-    background-color: bisque;
-    height: 20vh;
-    padding: 20px;
-}
-.test{
-    background-color: rgb(52, 134, 60);
-    height: 30px;
-    width: 20px;
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 16px 32px;
+
+  nav ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    a {
+      text-decoration: none;
+      color: #333;
+      font-size: 15px;
+      font-weight: 500;
+      transition: color 0.2s;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
 }
