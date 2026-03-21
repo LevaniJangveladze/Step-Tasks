@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <section>
+    <h2 id="rgbGenerator">RGB Display</h2>
+    <div class="boxes-container">
+        <div class="color-box" onclick="color(colorsArr[0])"></div>
+        <div class="color-box" onclick="color(colorsArr[1])"></div>
+        <div class="color-box" onclick="color(colorsArr[2])"></div>
+        
+        <div class="color-box1" onclick="color(colorsArr[3])" style="display: none;"></div>
+        <div class="color-box1" onclick="color(colorsArr[4])" style="display: none;"></div>
+        <div class="color-box1" onclick="color(colorsArr[5])" style="display: none;"></div>
+    </div>
+    <p id="score">Score</p>
+    <h2 id="message"></h2>
+  </section>
+    <script src="./script.js"></script>
+</body>
+</html>
