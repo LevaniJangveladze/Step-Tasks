@@ -1,0 +1,14 @@
+/Users/ninoputkaradze/Desktop/FirstC/bin/Debug/net8.0/FirstC
+/Users/ninoputkaradze/Desktop/FirstC/bin/Debug/net8.0/FirstC.deps.json
+/Users/ninoputkaradze/Desktop/FirstC/bin/Debug/net8.0/FirstC.runtimeconfig.json
+/Users/ninoputkaradze/Desktop/FirstC/bin/Debug/net8.0/FirstC.dll
+/Users/ninoputkaradze/Desktop/FirstC/bin/Debug/net8.0/FirstC.pdb
+/Users/ninoputkaradze/Desktop/FirstC/obj/Debug/net8.0/FirstC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ninoputkaradze/Desktop/FirstC/obj/Debug/net8.0/FirstC.AssemblyInfoInputs.cache
+/Users/ninoputkaradze/Desktop/FirstC/obj/Debug/net8.0/FirstC.AssemblyInfo.cs
+/Users/ninoputkaradze/Desktop/FirstC/obj/Debug/net8.0/FirstC.csproj.CoreCompileInputs.cache
+/Users/ninoputkaradze/Desktop/FirstC/obj/Debug/net8.0/FirstC.dll
+/Users/ninoputkaradze/Desktop/FirstC/obj/Debug/net8.0/refint/FirstC.dll
+/Users/ninoputkaradze/Desktop/FirstC/obj/Debug/net8.0/FirstC.pdb
+/Users/ninoputkaradze/Desktop/FirstC/obj/Debug/net8.0/FirstC.genruntimeconfig.cache
+/Users/ninoputkaradze/Desktop/FirstC/obj/Debug/net8.0/ref/FirstC.dll
