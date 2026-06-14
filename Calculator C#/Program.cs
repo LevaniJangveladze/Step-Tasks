@@ -4,15 +4,53 @@
     {
         static void Main(string[] args)
         {
+            int x = 0;
+            bool hasStarted = false;
+
+
             while (true)
             {
-                int x = GetNumber("Enter X");
-                int y = GetNumber("Enter Y");
+                if (!hasStarted)
+                {
+                    string xInput = GetText("Enter x: ");
+                    if (xInput == "C")
+                    {
+                        Console.WriteLine("Cleared! x = 0");
+                        continue;
+                    }
+
+                    x = int.Parse(xInput);
+                    hasStarted = true;
+                    continue;
+                }
+
                 string oop = GetText("Enter opperation");
+
+                if (oop == "C")
+                {
+                    x = 0;
+                    hasStarted = false;
+                    Console.WriteLine("Cleared! x = 0");
+                    continue;
+                }
+
+                string yInput = GetText("Enter Y: ");
+                if (yInput == "C")
+                {
+                    x = 0;
+                    hasStarted = false;
+                    Console.WriteLine("Cleared! x = 0");
+                    continue;
+                }
+
+                int y = int.Parse(yInput);
+
 
                 try
                 {
-                    Calculate(x, y, oop);
+                    int result = Calculate(x, y, oop);
+                    Console.WriteLine($"= {result}");
+                    x = result;
                 }
                 catch (Exception e)
                 {
@@ -38,19 +76,20 @@
             return text;
         }
 
-        static void Calculate(int x, int y, string oop)
+
+        static int Calculate(int x, int y, string oop)
         {
             if (oop == "+")
             {
-                Console.WriteLine($"{x} + {y} = {x + y}");
+                return x + y;
             }
             else if (oop == "-")
             {
-                Console.WriteLine($"{x} - {y} = {x - y}");
+                return x - y;
             }
             else if (oop == "*")
             {
-                Console.WriteLine($"{x} * {y} = {x * y}");
+                return x * y;
             }
             else if (oop == "/")
 
@@ -60,7 +99,7 @@
                     throw new Exception("Divide by zero");
                 }
 
-                Console.WriteLine($"{x} / {y} = {x / y}");
+                return x / y;
             }
             else if (oop == "%")
             {
@@ -69,15 +108,12 @@
                     throw new Exception("Divide by zero");
                 }
 
-                Console.WriteLine($"{x} % {y} = {x % y}");
+                return x % y;
             }
             else
             {
-                Console.WriteLine("Invalid format.");
+                throw new Exception("Invalid operation.");
             }
         }
-
-
-       
     }
 }
