@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|c:\\users\\teacher\\source\\repos\\consoleapp12\\services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|solutionrelative:services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|c:\\users\\teacher\\source\\repos\\consoleapp12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|c:\\users\\teacher\\source\\repos\\consoleapp12\\services\\courseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|solutionrelative:services\\courseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|c:\\users\\teacher\\source\\repos\\consoleapp12\\menus\\coursemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|solutionrelative:menus\\coursemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|c:\\users\\teacher\\source\\repos\\consoleapp12\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|solutionrelative:menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|c:\\users\\teacher\\source\\repos\\consoleapp12\\menus\\studentmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|solutionrelative:menus\\studentmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|c:\\users\\teacher\\source\\repos\\consoleapp12\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|solutionrelative:common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|c:\\users\\teacher\\source\\repos\\consoleapp12\\common\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|solutionrelative:common\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|c:\\users\\teacher\\source\\repos\\consoleapp12\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|c:\\users\\teacher\\source\\repos\\consoleapp12\\common\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|solutionrelative:common\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|c:\\users\\teacher\\source\\repos\\consoleapp12\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4583B626-8993-4F10-93B9-74891C947F21}|ConsoleApp12.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 212,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Menus\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Menus\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Menus\\MainMenu.cs",
+              "RelativeToolTip": "Menus\\MainMenu.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T07:50:07.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Common\\Result.cs",
+              "RelativeDocumentMoniker": "Common\\Result.cs",
+              "ToolTip": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Common\\Result.cs",
+              "RelativeToolTip": "Common\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T07:44:21.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentMenu.cs",
+              "DocumentMoniker": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Menus\\StudentMenu.cs",
+              "RelativeDocumentMoniker": "Menus\\StudentMenu.cs",
+              "ToolTip": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Menus\\StudentMenu.cs",
+              "RelativeToolTip": "Menus\\StudentMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T07:38:59.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Menus\\CourseMenu.cs",
+              "RelativeDocumentMoniker": "Menus\\CourseMenu.cs",
+              "ToolTip": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Menus\\CourseMenu.cs",
+              "RelativeToolTip": "Menus\\CourseMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T07:38:48.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Common\\Database.cs",
+              "RelativeDocumentMoniker": "Common\\Database.cs",
+              "ToolTip": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Common\\Database.cs",
+              "RelativeToolTip": "Common\\Database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T07:14:01.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseServices.cs",
+              "DocumentMoniker": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Services\\CourseServices.cs",
+              "RelativeDocumentMoniker": "Services\\CourseServices.cs",
+              "ToolTip": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Services\\CourseServices.cs",
+              "RelativeToolTip": "Services\\CourseServices.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T07:06:52.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentServices.cs",
+              "DocumentMoniker": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Services\\StudentServices.cs",
+              "RelativeDocumentMoniker": "Services\\StudentServices.cs",
+              "ToolTip": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Services\\StudentServices.cs",
+              "RelativeToolTip": "Services\\StudentServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T07:06:38.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Common\\Entity.cs",
+              "RelativeDocumentMoniker": "Common\\Entity.cs",
+              "ToolTip": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Common\\Entity.cs",
+              "RelativeToolTip": "Common\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T06:40:19.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T06:39:05.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T06:37:56.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\teacher\\source\\repos\\ConsoleApp12\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T06:39:15.168Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
