@@ -1,9 +1,11 @@
-namespace EF_Practice.Models;
+namespace EF_OneToOne.Models;
 
 public class Product
 {
     public int Id { get; set; }
     public string? Name { get; set; }
-    public decimal Price { get; set; }
     public string? Description { get; set; }
+    
+    public ProductDetails? Details { get; set; }
+
 }
